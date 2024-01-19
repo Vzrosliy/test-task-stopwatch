@@ -1,0 +1,48 @@
+body {
+  height: 100vh;
+  background: url(00.jpg) no-repeat rgb(255, 255, 255);
+  background-size: cover;
+  background-position: center center;
+}
+
+#clock {
+  color: aliceblue;
+  font-size: 12vw;
+  text-align: center;
+  height: 80vh;
+  /* background-color: rgb(211, 206, 199); */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  font-family: "Rubik Mono One", monospace;
+  text-shadow: 32px 17px 5vh black;
+}
+
+#buttons {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 30px;
+}
+
+#play,
+#reset {
+  border-radius: 6px;
+  border: 1px solid rgb(90, 89, 89);
+  font-size: max(2vw, 4vh);
+  font-weight: 900;
+  padding: 18px;
+  background-color: rgb(243, 7, 7);
+  color: rgb(255, 253, 253);
+  box-shadow: 26px 16px 8vh black;
+  text-size-adjust: 50px;
+}
+
+#play {
+  margin-right: 20px;
+}
+
+#textTask {
+  color: aliceblue;
+}
